@@ -63,7 +63,10 @@ for(SignupDTO signupDTO :signupDTOs ){
        <td><%=signupDTO.getEmail() %></td>
       <td><%=signupDTO.getGender() %></td>
         <td>
-              <button type="button" class="btn btn-danger">DELETE</button>
+              <button type="button" class="btn btn-danger">D</button>
+                <a href="editData?sid=<%=signupDTO.getSid() %>"> 
+               <button type="button" class="btn btn-primary">E</button>
+               </a>
           </td>
       </tr>
    

@@ -65,8 +65,6 @@ public class SearchSignupsServlet extends HttpServlet {
 				 e.printStackTrace();
 			}
 			 
-			
-			 
 		 } else {
 		 
 				 if(textSearch!=null && textSearch.trim().length()>0) {

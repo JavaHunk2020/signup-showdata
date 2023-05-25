@@ -1,6 +1,6 @@
 <!DOCTYPE html>
+<%@page import="com.kuebiko.it.servlet.dto.SignupDTO"%>
 <%@page import="java.util.ArrayList"%>
-<%@page import="com.p1.SignupDTO"%>
 <%@page import="java.util.List"%>
 <html>
 <head>
@@ -49,7 +49,9 @@
    	    <a href="showData">
    	       <button type="button" class="btn btn-success">Show Data</button>
    	    </a>
-   	    
+   	       <a href="searchSignup.jsp">
+   	       <button type="button" class="btn btn-primary">Search</button>
+   	    </a>
    	 </div>
    	 </form>
    	 <hr/>

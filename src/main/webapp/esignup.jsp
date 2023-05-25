@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <%@page import="java.util.ArrayList"%>
-<%@page import="com.p1.SignupDTO"%>
 <%@page import="java.util.List"%>
 <html>
 <head>

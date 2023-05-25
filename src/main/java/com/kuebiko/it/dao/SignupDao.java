@@ -92,6 +92,7 @@ public class SignupDao {
 	}
 
 	public static List<SignupDTO> findAll() {
+		
 		List<SignupDTO> signupDTOs = new ArrayList<SignupDTO>();
 		// JDBC PROGRAMMING
 		try {

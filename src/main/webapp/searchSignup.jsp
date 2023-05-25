@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<%@page import="com.kuebiko.it.servlet.dto.SignupDTO"%>
 <%@page import="java.util.ArrayList"%>
+<%@page import="com.kuebiko.it.servlet.dto.SignupDTO"%>
 <%@page import="java.util.List"%>
 <html>
 <head>
@@ -53,7 +53,7 @@
 List<SignupDTO>  signupDTOs =(List<SignupDTO>)request.getAttribute("bananas");
 
 if(signupDTOs==null){
-	signupDTOs=new ArrayList<>();
+	signupDTOs=new ArrayList<SignupDTO>();
 }
 for(SignupDTO signupDTO :signupDTOs ){
 %>  

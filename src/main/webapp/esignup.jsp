@@ -1,6 +1,4 @@
 <!DOCTYPE html>
-<%@page import="java.util.ArrayList"%>
-<%@page import="java.util.List"%>
 <html>
 <head>
  <meta charset="utf-8">
